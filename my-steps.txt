@@ -173,6 +173,21 @@ To https://github.com/manojna18/unit1-git-practice.git
 
 
 ### Step 6
+$ git add .
+$ git commit -m 'adds further steps'
+[main b5e6006] adds further steps
+ 2 files changed, 105 insertions(+), 14 deletions(-)
+ create mode 100644 menu.txt
+$ git push --set-upstream origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.49 KiB | 765.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/manojna18/unit1-git-practice.git
+   2a3815e..b5e6006  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 
 ### Step 7
